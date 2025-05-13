@@ -1,3 +1,4 @@
 .idea
 .env
 to_db.csv
+db.sqlite3
