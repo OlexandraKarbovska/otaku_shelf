@@ -1,5 +1,4 @@
 .idea
 .env
 to_db.csv
-db.sqlite3
-/__pycache__/*
+__pycache__/
