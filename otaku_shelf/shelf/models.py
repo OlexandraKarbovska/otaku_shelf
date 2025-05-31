@@ -1,5 +1,4 @@
 from django.db import models
-from .choices.score import Score
 from .choices.status import Status
 from .choices.genre import Genre
 
@@ -14,4 +13,4 @@ class Title(models.Model):
     name = models.CharField(max_length=200)
     genre = models.CharField(max_length=100, choices=Genre)
     status = models.CharField(max_length=100, choices=Status)
-    score = models.IntegerField(choices=Score)
+    score = models.IntegerField()
